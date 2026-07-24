@@ -5,7 +5,7 @@
 			<value>Footsteps</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{26902d6b-8ac4-48f6-af42-addeaf2bc788}</destination>
@@ -59,7 +59,11 @@
 			<destination>{77834d8d-a39e-4e60-83a0-66cfb95a4159}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{e9dc46a4-545d-490c-802b-8e48faa273bd}" />
+	<object class="EventAutomatableProperties" id="{e9dc46a4-545d-490c-802b-8e48faa273bd}">
+		<property name="maximumDistance">
+			<value>40</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{afb0ca6d-ae93-4ccb-81cd-9b6be3c4cef3}" />
 	<object class="Timeline" id="{d3cbde68-a8e1-4cc3-a647-bcf4f9e78826}">
 		<property name="isProxyEnabled">
@@ -96,6 +100,7 @@
 	<object class="MixerBusEffectChain" id="{23a3173a-8458-4c66-82a1-6cba14c267fe}">
 		<relationship name="effects">
 			<destination>{bf050bf3-c114-4464-97b5-f2688b43da93}</destination>
+			<destination>{d1fef636-f4a2-4c87-9018-abc1c5e41e75}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{b3709932-db92-49f3-bffe-5e60ada58375}" />
@@ -113,6 +118,11 @@
 	</object>
 	<object class="MixerBusFader" id="{0026363e-eeb7-482b-914d-2591addc067f}" />
 	<object class="MixerBusFader" id="{bf050bf3-c114-4464-97b5-f2688b43da93}" />
+	<object class="SpatialiserEffect" id="{d1fef636-f4a2-4c87-9018-abc1c5e41e75}">
+		<property name="distanceRolloffType">
+			<value>1</value>
+		</property>
+	</object>
 	<object class="SingleSound" id="{5c2b0b73-c0be-43b6-a175-5f4ca7de7d17}">
 		<relationship name="audioFile">
 			<destination>{44c77cf1-ea40-4afc-9f57-5a2e094e145d}</destination>
