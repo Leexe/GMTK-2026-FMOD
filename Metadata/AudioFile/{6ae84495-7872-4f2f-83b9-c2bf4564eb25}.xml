@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{6ae84495-7872-4f2f-83b9-c2bf4564eb25}">
+		<property name="assetPath">
+			<value>elevator fallinf.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>5.8680498866213151</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{8b5cdd13-c1c9-488b-b4f2-2ec03f8a30fd}</destination>
+		</relationship>
+	</object>
+</objects>
