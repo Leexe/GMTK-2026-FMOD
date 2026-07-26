@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{2b93b4f2-fef4-4c29-bb28-f4103c94e6f8}">
 		<property name="name">
-			<value>Short Buzz</value>
+			<value>Short Buzz Ref</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
