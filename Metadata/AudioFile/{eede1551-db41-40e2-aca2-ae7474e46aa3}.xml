@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="AudioFile" id="{ef47c114-0302-426c-a584-13b2dae54f47}">
+	<object class="AudioFile" id="{eede1551-db41-40e2-aca2-ae7474e46aa3}">
 		<property name="assetPath">
 			<value>ev tablet.wav</value>
 		</property>
@@ -11,7 +11,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>1.1805442176870748</value>
+			<value>0.99825396825396828</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{8b5cdd13-c1c9-488b-b4f2-2ec03f8a30fd}</destination>
